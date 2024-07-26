@@ -1,7 +1,7 @@
 # usb_monitor.py
-import usb.core
-import usb.util
-import pandas as pd
+import usb.core # type: ignore
+import usb.util # type: ignore
+import pandas as pd # type: ignore
 from datetime import datetime
 
 class USBMonitor:

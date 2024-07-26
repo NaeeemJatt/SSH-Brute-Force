@@ -1,5 +1,5 @@
 # report_generator.py
-import pandas as pd
+import pandas as pd # type: ignore
 
 def generate_report(suspicious_files, suspicious_devices, report_file):
     with open(report_file, 'w') as f:

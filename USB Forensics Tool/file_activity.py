@@ -1,7 +1,7 @@
 # file_activity.py
-from watchdog.observers import Observer
-from watchdog.events import FileSystemEventHandler
-import pandas as pd
+from watchdog.observers import Observer # type: ignore
+from watchdog.events import FileSystemEventHandler # type: ignore
+import pandas as pd # type: ignore
 from datetime import datetime
 
 class FileActivityMonitor(FileSystemEventHandler):

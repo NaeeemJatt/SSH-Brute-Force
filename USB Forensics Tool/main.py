@@ -1,7 +1,7 @@
 # main.py
-from usb_monitor import USBMonitor
+from usb_monitor import USBMonitor # type: ignore
 from file_activity import FileActivityMonitor
-from watchdog.observers import Observer
+from watchdog.observers import Observer # type: ignore
 from threat_detection import detect_anomalies
 from report_generator import generate_report
 import time

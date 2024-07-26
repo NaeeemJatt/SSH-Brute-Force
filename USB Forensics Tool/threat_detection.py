@@ -1,5 +1,5 @@
 # threat_detection.py
-import pandas as pd
+import pandas as pd # type: ignore
 
 def detect_anomalies(file_activity_log, usb_device_log):
     file_df = pd.read_csv(file_activity_log)
